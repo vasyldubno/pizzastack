@@ -1,0 +1,26 @@
+export const CardError = () => {
+  return (
+    <div className="w-[256px] h-[118px] shadow-xl rounded-2xl">
+      <div className="h-[64px] bg-red-500 rounded-t-2xl items-center justify-center flex">
+        <svg
+          width="39"
+          height="34"
+          viewBox="0 0 39 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.8624 12.9997V16.9998M19.8624 24.9999H19.8824M6.00622 33H33.7186C36.7987 33 38.7227 29.6659 37.1827 26.9999L23.3265 2.99953C21.7865 0.33349 17.9384 0.33349 16.3984 2.99953L2.54216 26.9999C1.00214 29.6659 2.92617 33 6.00622 33Z"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <div className="text-center font-normal text-base">
+        Упс, сталася помилка 🥲 Спробуйте трохи пізніше
+      </div>
+    </div>
+  );
+};
